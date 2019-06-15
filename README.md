@@ -1,4 +1,4 @@
-# GooglePlacesSearch
+# RootsInnovations Assignment
 
 Application to generate a summary of user data.
 
