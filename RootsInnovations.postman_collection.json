@@ -1,0 +1,51 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RootsInnovations",
+		"_postman_id": "167e1075-fa48-7ecc-910d-838e1c8046b5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:3000/user/getStats",
+			"request": {
+				"url": "localhost:3000/user/getStats",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\t\t\"fullName\": \"Pavan Maind\",\r\n\t\t\"emailId\": \"pavanm@winjit.com\",\r\n\t\t\"password\": \"winjit\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:3000/user/fetchData",
+			"request": {
+				"url": "localhost:3000/user/fetchData",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n\t\t\"fullName\": \"Pavan Maind\",\r\n\t\t\"emailId\": \"pavanm@winjit.com\",\r\n\t\t\"password\": \"winjit\"\r\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
